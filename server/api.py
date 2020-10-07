@@ -20,7 +20,7 @@ class Body(BaseModel):
 
 @app.get("/")
 def hello():
-    return {"Hello": "World"}
+    return {"Hi": "World"}
 
 @app.get("/b2s/{b}")
 async def read_item(b):
